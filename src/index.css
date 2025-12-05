@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Custom placeholder styling */
+input::placeholder,
+textarea::placeholder {
+  color: #6b7280; /* gray-500 */
+  font-style: italic;
+  opacity: 1;
+}
